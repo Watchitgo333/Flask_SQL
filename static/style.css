@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 100px;
+    margin: 10px;
+}
+
+.blocks {
+    margin: 0px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 1000px;
+    width: 1000px;
+}
+
+.block1 {
+    width: 100px;
+    height: 100px;
+}
+
+.block2 {
+    width: 100px;
+    height: 100px;
+}
